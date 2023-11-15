@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Ad_blocker",
+  "description": "Block ads!",
+  "version": "1.0.0",
+  "permissions": [
+      "declarativeNetRequest"
+  ],
+  "declarative_net_request": {
+      "rule_resources": [
+          {
+              "id": "ruleset_1",
+              "enabled": true,
+              "path": "rules.json"
+          }
+      ]
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/logo16x16.png",
+      "48": "icons/logo48x48.png",
+      "128": "icons/logo128x128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/logo16x16.png",
+    "48": "icons/logo48x48.png",
+    "128": "icons/logo128x128.png"
+  }
+}
