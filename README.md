@@ -14,6 +14,7 @@ This is a basic ad blocker Chrome extension developed using JavaScript and the M
 1. Clone or download this repository.
 
 ```bash
-git clone https://github.com/Aadigha-git/Adblocker.git
+git clone https://github.com/Aadigha-git/AdblockerJs.git
+```
 
 2.  Add to chrome @ chrome://extensions
